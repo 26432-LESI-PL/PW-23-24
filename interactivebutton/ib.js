@@ -3,7 +3,6 @@ const button = document.getElementById("button");
 button.style.backgroundColor = "blue";
 
 button.addEventListener("click", () => {
-    console.log(button.style.backgroundColor);
   if (button.style.backgroundColor == "blue") {
     button.style.backgroundColor = "red";
   } else {
