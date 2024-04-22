@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tabnav.css">
+    <title>Tab Navigation</title>
+</head>
+<body>
+    <div class="container">
+        <div class="bar">
+          <button class="bar-item active" onclick="openTab(event, 'tab1')">Portugal</button>
+          <button class="bar-item" onclick="openTab(event,'tab2')">França</button>
+          <button class="bar-item" onclick="openTab(event,'tab3')">Espanha</button>
+        </div>
+        
+        <div id="tab1" class="content">
+          <h2>Portugal</h2>
+          <p>PORTUGAAAAAAAAAAAAAAAAAAL</p>
+        </div>
+      
+        <div id="tab2" class="content hidden">
+          <h2>França</h2>
+          <p>Tem Paris lá</p> 
+        </div>
+      
+        <div id="tab3" class="content hidden">
+          <h2>Espanha</h2>
+          <p>Vizinhos de Portugal</p>
+        </div>
+    </div>
+    <script src="tabnav.js"></script>
+</body>
+</html>
